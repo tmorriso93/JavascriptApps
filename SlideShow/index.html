@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta name="viewport" 
+	       content="width=device-width,initial-scale=1.0">
+	 <meta charset="UTF-8">
+	 <title>JavaScrip101</title>
+</head>
+<body>
+	<h1>JavaScript 101</h1>
+  
+    <script>
+    	var i = 0; //start point
+    	var images = [];
+    	var time = 3000;
+
+    	//img list
+    	images[0] = "coolgalaxy.jpg";
+        images[1] = "coolspace.jpg";
+        images[2] = "purplespace.jpg";
+        images[3] = "coolspace11.jpg";
+        images[4] = "earthnmoon1.jpg";
+        images[5] = "galaxy.jpg";
+
+      //change img
+      function changeImg(){
+      	document.slide.src = images[i];
+
+      	if(i < images.length - 1){
+      		i++;
+      	} else {
+      		i = 0;
+      	}
+      	setTimeout("changeImg()", time);
+        }
+
+        window.onload = changeImg;
+
+    </script>
+
+    <img name="slide" width="600" height ="400">
+
+</body>
+</html>

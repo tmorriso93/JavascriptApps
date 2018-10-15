@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="content-type">
+	<meta charset="UTF-8"> 
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Weight converter</title>
+
+	<style>
+
+body{
+	text-align: center;
+	margin-top: 70px;
+	background: white;
+	color: black;
+	padding: 10 20 10 20px;
+}
+     </style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h1 class="display-4 text-center">Weight Converter</h1>
+			<form>
+				<div class="form-group">
+					<input 
+					id="lbsInput"
+					type="number"
+					class="form-control-lg form-control-lg" 
+					placeholder="Enter Pounds...">
+				</div>
+			</form>
+
+			  <div id="output">
+               <div class="card-primary">
+				  <div class="card-block">
+					<h4>Grams:</h4>
+					<div id="gramsOutput"></div>
+				</div>	
+				  </div>
+			    </div>
+
+				<div class="card-success">
+				  <div class="card-block">
+					<h4>Kilograms:</h4>
+					<div id="kgOutput"></div>
+				  </div>
+			    </div>
+
+
+               <div class="card-danger">
+				  <div class="card-block">
+					<h4>Ounces:</h4>
+					<div id="ozOutput"></div>
+
+		      </div>
+	        </div>
+	      </div>
+	    </div>
+    </div>
+</div>
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
