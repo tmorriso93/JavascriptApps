@@ -1,0 +1,69 @@
+
+body {
+  
+  padding-bottom: 50px;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+ 
+  
+}
+
+footer {
+  height: 0px;
+  bottom: -50%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+ .display-3, .bottompair, .lead {
+  text-align: center;
+  font-family: 'Prata', serif, Georgia, serif;
+  
+}
+
+
+
+.display-3 {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 800;
+  padding: 20px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 8px 8px 10px #000000;
+  
+ 
+}
+
+
+
+p, .lead {
+  font-family: 'Cormorant SC', serif;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Cinzel', serif;
+}
+
+.cov {
+  text-align: center;
+  font-family: 'Notable', sans-serif;
+  color: white;
+}
