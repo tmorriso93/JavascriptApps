@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=BenchNine&family=Saira+Condensed&display=swap");
+
+/* font-family: 'BenchNine', sans-serif;
+
+    font-family: 'Saira Condensed', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "BenchNine", sans-serif;
+  background: rgb(112, 176, 250);
+  background: linear-gradient(
+    180deg,
+    rgba(112, 176, 250, 1) 46%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+img {
+  width: 50%;
+}
+
+h2 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+}
