@@ -1,5 +1,6 @@
-// Write a function feast that takes the animal's name and dish as arguments and returns true or false
-//  to indicate whether the beast is allowed to bring the dish to the feast.
+// create a function that takes two arguments. the first arguments first letter 
+// must match the second arguments first letter. The first arguments last letter 
+// must match the second arguments last letter.
 
 // Assume that beast and dish are always lowercase strings, and that each has
 //  at least two letters. beast and dish may contain hyphens and spaces, but these will not appear
@@ -16,3 +17,5 @@ const feast = (beast, dish) =>
 //     }
 //     else {return false;}
 //   }
+
+//   console.log(feast("crab", "carb"))
